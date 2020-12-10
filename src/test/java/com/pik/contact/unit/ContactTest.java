@@ -10,7 +10,7 @@ public class ContactTest {
 
     @Test
     public void can_be_updated() {
-        Contact contact = aContact("John", "Doe");
+        Contact contact = aContact("Joe", "Shmoe");
 
         contact.updateWith(aContact("John", "Smith"));
 
