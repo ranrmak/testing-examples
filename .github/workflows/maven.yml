@@ -22,3 +22,8 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - uses: actions/github-script@v3
+      id: set-result
+      with:
+        script: return "Hello!"
+        result-encoding: string      
