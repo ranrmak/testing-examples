@@ -49,5 +49,6 @@ PIT is configured in maven [src/pom/xml](src/pom/xml)and can be run with: `mvn p
 
 * Code coverage report by Jacoco
 
+* Other tests
 
 
